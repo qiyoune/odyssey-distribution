@@ -4,7 +4,7 @@ const crypto = require('crypto');
 const https = require('https');
 
 const DISTRO_DIR = __dirname;
-const BASE_URL = 'https://qiyoune.github.io/odyssey-distribution';
+const BASE_URL = 'https://raw.githubusercontent.com/qiyoune/odyssey-distribution/main';
 
 function computeHashes(filePath) {
     const buffer = fs.readFileSync(filePath);
