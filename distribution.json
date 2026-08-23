@@ -1,1 +1,159 @@
-
+{
+  "version": "1.0.0",
+  "rss": "https://qiyoune.github.io/odyssey-distribution/news.rss",
+  "servers": [
+    {
+      "id": "odyssey",
+      "name": "Cobblemon Odyssey",
+      "description": "Serveur officiel Cobblemon Odyssey - 1.21.1",
+      "icon": "https://qiyoune.github.io/odyssey-distribution/icon.png",
+      "version": "1.0.0",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.21.1",
+      "javaOptions": {
+        "supported": ">=21",
+        "suggestedMajor": 21,
+        "ram": {
+          "recommended": 4096,
+          "minimum": 2048
+        }
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.16.9",
+          "name": "Fabric Loader 0.16.9",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1387357,
+            "MD5": "27a6ef87676ce6316c777d81c1cd2962",
+            "url": "https://qiyoune.github.io/odyssey-distribution/files/libraries/net/fabricmc/fabric-loader/0.16.9/fabric-loader-0.16.9.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.21.1-fabric-0.16.9",
+              "name": "Fabric Version Manifest",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 3368,
+                "MD5": "fd6c89f245db47435512925fa47f967d",
+                "url": "https://qiyoune.github.io/odyssey-distribution/files/versions/1.21.1-fabric-0.16.9/1.21.1-fabric-0.16.9.json"
+              }
+            }
+          ]
+        },
+        {
+          "id": "fr.odyssey:axiom:5.4.2-for-MC1.21.1",
+          "name": "Axiom (5.4.2-for-MC1.21.1)",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 47067416,
+            "MD5": "76fce4da6c71015bcf3072974126feb2",
+            "path": "Axiom-5.4.2-for-MC1.21.1.jar",
+            "url": "https://qiyoune.github.io/odyssey-distribution/files/servers/odyssey/mods/Axiom-5.4.2-for-MC1.21.1.jar"
+          }
+        },
+        {
+          "id": "fr.odyssey:cobblemon-fabric:1.7.3+1.21.1",
+          "name": "Cobblemon fabric (1.7.3+1.21.1)",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 135801550,
+            "MD5": "1de64f280372ec94e4376976fb579d52",
+            "path": "Cobblemon-fabric-1.7.3+1.21.1.jar",
+            "url": "https://qiyoune.github.io/odyssey-distribution/files/servers/odyssey/mods/Cobblemon-fabric-1.7.3%2B1.21.1.jar"
+          }
+        },
+        {
+          "id": "fr.odyssey:fabric-api:0.116.15+1.21.1",
+          "name": "fabric api (0.116.15+1.21.1)",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2452718,
+            "MD5": "e24c27a4ece4ee82ca7a55f2f5b544f4",
+            "path": "fabric-api-0.116.15+1.21.1.jar",
+            "url": "https://qiyoune.github.io/odyssey-distribution/files/servers/odyssey/mods/fabric-api-0.116.15%2B1.21.1.jar"
+          }
+        },
+        {
+          "id": "fr.odyssey:ferritecore:7.0.3-fabric",
+          "name": "ferritecore (7.0.3-fabric)",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 123450,
+            "MD5": "b8513c8c3eef01ea1117ed8d8cba060d",
+            "path": "ferritecore-7.0.3-fabric.jar",
+            "url": "https://qiyoune.github.io/odyssey-distribution/files/servers/odyssey/mods/ferritecore-7.0.3-fabric.jar"
+          }
+        },
+        {
+          "id": "fr.odyssey:krypton:0.2.8",
+          "name": "krypton (0.2.8)",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 161045,
+            "MD5": "9ba3d734dac0e59deb4721f2f23c65ad",
+            "path": "krypton-0.2.8.jar",
+            "url": "https://qiyoune.github.io/odyssey-distribution/files/servers/odyssey/mods/krypton-0.2.8.jar"
+          }
+        },
+        {
+          "id": "fr.odyssey:lithium-fabric:0.15.4+mc1.21.1",
+          "name": "lithium fabric (0.15.4+mc1.21.1)",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 797454,
+            "MD5": "6fd6783640f42130f041b50cca2d3be6",
+            "path": "lithium-fabric-0.15.4+mc1.21.1.jar",
+            "url": "https://qiyoune.github.io/odyssey-distribution/files/servers/odyssey/mods/lithium-fabric-0.15.4%2Bmc1.21.1.jar"
+          }
+        },
+        {
+          "id": "fr.odyssey:lithostitched:1.7.13-fabric-21.1",
+          "name": "lithostitched (1.7.13-fabric-21.1)",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 827470,
+            "MD5": "1654f22b58c0aa48ec1620d85f2d87e6",
+            "path": "lithostitched-1.7.13-fabric-21.1.jar",
+            "url": "https://qiyoune.github.io/odyssey-distribution/files/servers/odyssey/mods/lithostitched-1.7.13-fabric-21.1.jar"
+          }
+        },
+        {
+          "id": "fr.odyssey:odyssey-core:1.0.0",
+          "name": "odyssey core (1.0.0)",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 11912,
+            "MD5": "fbf4238d8cc09adb5b4a6f79755a98dd",
+            "path": "odyssey-core-1.0.0.jar",
+            "url": "https://qiyoune.github.io/odyssey-distribution/files/servers/odyssey/mods/odyssey-core-1.0.0.jar"
+          }
+        },
+        {
+          "id": "fr.odyssey:terralith:1.21.x_v2.6.2",
+          "name": "Terralith (1.21.x_v2.6.2)",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2813817,
+            "MD5": "7d2aa346b66270e770fee79e5b4541d6",
+            "path": "Terralith_1.21.x_v2.6.2.jar",
+            "url": "https://qiyoune.github.io/odyssey-distribution/files/servers/odyssey/mods/Terralith_1.21.x_v2.6.2.jar"
+          }
+        },
+        {
+          "id": "fr.odyssey:voicechat-fabric:1.21.1-2.6.22",
+          "name": "voicechat fabric (1.21.1-2.6.22)",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 5369475,
+            "MD5": "dccfc2a487792d2d52ca91d19b9d7f6d",
+            "path": "voicechat-fabric-1.21.1-2.6.22.jar",
+            "url": "https://qiyoune.github.io/odyssey-distribution/files/servers/odyssey/mods/voicechat-fabric-1.21.1-2.6.22.jar"
+          }
+        }
+      ]
+    }
+  ]
+}

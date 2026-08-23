@@ -1,0 +1,19 @@
+﻿{
+  "baseUrl": "https://qiyoune.github.io/odyssey-distribution/files",
+  "metaUrl": "https://qiyoune.github.io/odyssey-distribution/meta",
+  "files": "files",
+  "servers": [
+    {
+      "id": "odyssey",
+      "name": "Cobblemon Odyssey",
+      "description": "Serveur officiel Cobblemon Odyssey - 1.21.1",
+      "icon": "https://qiyoune.github.io/odyssey-distribution/icon.png",
+      "version": "1.0.0",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.21.1",
+      "fabricVersion": "0.16.9",
+      "mainServer": true,
+      "autoconnect": true
+    }
+  ]
+}
