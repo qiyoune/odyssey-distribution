@@ -92,6 +92,57 @@ async function main() {
     fs.writeFileSync(loaderAbsPath, fabricLoaderBuf);
     const loaderHashes = computeHashes(loaderAbsPath);
 
+    const fabricSubModules = [
+        {
+            id: manifestVersionId,
+            name: "Fabric Version Manifest",
+            type: "VersionManifest",
+            artifact: {
+                size: manifestHashes.size,
+                MD5: manifestHashes.md5,
+                url: `${BASE_URL}/${manifestRelativePath}`
+            }
+        }
+    ];
+
+    if (Array.isArray(fabricManifestJson.libraries)) {
+        for (const lib of fabricManifestJson.libraries) {
+            if (lib && lib.name) {
+                const parts = lib.name.split(':');
+                const groupPath = parts[0].replace(/\./g, '/');
+                const name = parts[1];
+                const version = parts[2];
+                const classifier = parts[3] ? `-${parts[3]}` : '';
+                const jarName = `${name}-${version}${classifier}.jar`;
+                const relPath = `files/libraries/${groupPath}/${name}/${version}/${jarName}`;
+                const absPath = path.join(DISTRO_DIR, relPath);
+
+                fs.mkdirSync(path.dirname(absPath), { recursive: true });
+
+                const mavenUrl = (lib.url || 'https://maven.fabricmc.net/') + `${groupPath}/${name}/${version}/${jarName}`;
+                console.log(`Fetching Fabric library ${lib.name}...`);
+                try {
+                    const libBuf = await fetchUrl(mavenUrl);
+                    fs.writeFileSync(absPath, libBuf);
+                    const libHashes = computeHashes(absPath);
+
+                    fabricSubModules.push({
+                        id: lib.name,
+                        name: `${name} (${version})`,
+                        type: "Library",
+                        artifact: {
+                            size: libHashes.size,
+                            MD5: libHashes.md5,
+                            url: `${BASE_URL}/${relPath}`
+                        }
+                    });
+                } catch (e) {
+                    console.warn(`Failed to fetch library ${lib.name}: ${e.message}`);
+                }
+            }
+        }
+    }
+
     const fabricModule = {
         id: `net.fabricmc:fabric-loader:${fabricVersion}`,
         name: `Fabric Loader ${fabricVersion}`,
@@ -101,18 +152,7 @@ async function main() {
             MD5: loaderHashes.md5,
             url: `${BASE_URL}/${loaderRelativePath}`
         },
-        subModules: [
-            {
-                id: manifestVersionId,
-                name: "Fabric Version Manifest",
-                type: "VersionManifest",
-                artifact: {
-                    size: manifestHashes.size,
-                    MD5: manifestHashes.md5,
-                    url: `${BASE_URL}/${manifestRelativePath}`
-                }
-            }
-        ]
+        subModules: fabricSubModules
     };
 
     // 2. Process Mod Jars
