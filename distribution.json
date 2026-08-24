@@ -1,5 +1,5 @@
 {
-  "version": "1.1.0",
+  "version": "1.1.1",
   "rss": "https://raw.githubusercontent.com/qiyoune/odyssey-distribution/main/news.rss",
   "servers": [
     {
@@ -7,11 +7,11 @@
       "name": "Cobblemon Odyssey",
       "description": "Serveur officiel Cobblemon Odyssey - 1.21.1",
       "icon": "https://raw.githubusercontent.com/qiyoune/odyssey-distribution/main/icon.png",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "address": "localhost:25565",
       "minecraftVersion": "1.21.1",
       "javaOptions": {
-        "supported": ">=21",
+        "supported": "21.x",
         "suggestedMajor": 21,
         "ram": {
           "recommended": 4096,
