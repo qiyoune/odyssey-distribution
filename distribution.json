@@ -1,5 +1,5 @@
 {
-  "version": "1.1.2",
+  "version": "1.1.3",
   "rss": "https://raw.githubusercontent.com/qiyoune/odyssey-distribution/main/news.rss",
   "servers": [
     {
@@ -7,7 +7,7 @@
       "name": "Cobblemon Odyssey",
       "description": "Serveur officiel Cobblemon Odyssey - 1.21.1",
       "icon": "https://raw.githubusercontent.com/qiyoune/odyssey-distribution/main/icon.png",
-      "version": "1.1.2",
+      "version": "1.1.3",
       "address": "localhost:25565",
       "minecraftVersion": "1.21.1",
       "javaOptions": {
@@ -315,8 +315,8 @@
           "name": "odyssey core (1.0.0)",
           "type": "FabricMod",
           "artifact": {
-            "size": 11912,
-            "MD5": "fbf4238d8cc09adb5b4a6f79755a98dd",
+            "size": 25865,
+            "MD5": "8351f13091bfd044322fe0bc6102a7d4",
             "path": "odyssey-core-1.0.0.jar",
             "url": "https://media.githubusercontent.com/media/qiyoune/odyssey-distribution/main/files/servers/odyssey/mods/odyssey-core-1.0.0.jar"
           }
