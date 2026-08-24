@@ -22,83 +22,83 @@
       "autoconnect": true,
       "modules": [
         {
-          "id": "net.fabricmc:fabric-loader:0.16.9",
-          "name": "Fabric Loader 0.16.9",
+          "id": "net.fabricmc:fabric-loader:0.19.3",
+          "name": "Fabric Loader 0.19.3",
           "type": "Fabric",
           "artifact": {
-            "size": 1387357,
-            "MD5": "27a6ef87676ce6316c777d81c1cd2962",
-            "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.16.9/fabric-loader-0.16.9.jar"
+            "size": 1976502,
+            "MD5": "881e0e9f53a11b9ad468b47afd678bfd",
+            "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.19.3/fabric-loader-0.19.3.jar"
           },
           "subModules": [
             {
-              "id": "1.21.1-fabric-0.16.9",
+              "id": "1.21.1-fabric-0.19.3",
               "name": "Fabric Version Manifest",
               "type": "VersionManifest",
               "artifact": {
-                "size": 3368,
-                "MD5": "fd6c89f245db47435512925fa47f967d",
-                "url": "https://raw.githubusercontent.com/qiyoune/odyssey-distribution/main/files/versions/1.21.1-fabric-0.16.9/1.21.1-fabric-0.16.9.json"
+                "size": 3373,
+                "MD5": "b79a5080d0dec4ef757f3a88032bc82c",
+                "url": "https://raw.githubusercontent.com/qiyoune/odyssey-distribution/main/files/versions/1.21.1-fabric-0.19.3/1.21.1-fabric-0.19.3.json"
               }
             },
             {
-              "id": "org.ow2.asm:asm:9.7.1",
-              "name": "asm (9.7.1)",
+              "id": "org.ow2.asm:asm:9.10.1",
+              "name": "asm (9.10.1)",
               "type": "Library",
               "artifact": {
-                "size": 126093,
-                "MD5": "e2cdd32d198ad31427d298eee9d39d8d",
-                "url": "https://maven.fabricmc.net/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar"
+                "size": 126151,
+                "MD5": "9cb72080438acf27f2607002e1444a7b",
+                "url": "https://maven.fabricmc.net/org/ow2/asm/asm/9.10.1/asm-9.10.1.jar"
               }
             },
             {
-              "id": "org.ow2.asm:asm-analysis:9.7.1",
-              "name": "asm-analysis (9.7.1)",
+              "id": "org.ow2.asm:asm-analysis:9.10.1",
+              "name": "asm-analysis (9.10.1)",
               "type": "Library",
               "artifact": {
-                "size": 35126,
-                "MD5": "4cd9e7178dfb85371bba3077e40cd514",
-                "url": "https://maven.fabricmc.net/org/ow2/asm/asm-analysis/9.7.1/asm-analysis-9.7.1.jar"
+                "size": 35140,
+                "MD5": "6dd9011ec87f65e4b2e14e938c4118e4",
+                "url": "https://maven.fabricmc.net/org/ow2/asm/asm-analysis/9.10.1/asm-analysis-9.10.1.jar"
               }
             },
             {
-              "id": "org.ow2.asm:asm-commons:9.7.1",
-              "name": "asm-commons (9.7.1)",
+              "id": "org.ow2.asm:asm-commons:9.10.1",
+              "name": "asm-commons (9.10.1)",
               "type": "Library",
               "artifact": {
-                "size": 73459,
-                "MD5": "8344aea3c8b7d707e9d35a62710e77c9",
-                "url": "https://maven.fabricmc.net/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar"
+                "size": 74840,
+                "MD5": "8eee0b1bdd046baf472eb83dd5e6bb44",
+                "url": "https://maven.fabricmc.net/org/ow2/asm/asm-commons/9.10.1/asm-commons-9.10.1.jar"
               }
             },
             {
-              "id": "org.ow2.asm:asm-tree:9.7.1",
-              "name": "asm-tree (9.7.1)",
+              "id": "org.ow2.asm:asm-tree:9.10.1",
+              "name": "asm-tree (9.10.1)",
               "type": "Library",
               "artifact": {
-                "size": 51939,
-                "MD5": "e85029f613b6469989cc7cf53fe06b74",
-                "url": "https://maven.fabricmc.net/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar"
+                "size": 51958,
+                "MD5": "62541e1dc62331408ef31317555bf4fa",
+                "url": "https://maven.fabricmc.net/org/ow2/asm/asm-tree/9.10.1/asm-tree-9.10.1.jar"
               }
             },
             {
-              "id": "org.ow2.asm:asm-util:9.7.1",
-              "name": "asm-util (9.7.1)",
+              "id": "org.ow2.asm:asm-util:9.10.1",
+              "name": "asm-util (9.10.1)",
               "type": "Library",
               "artifact": {
-                "size": 94519,
-                "MD5": "36d373a9cd6cad9b35db9f984c6b4bbb",
-                "url": "https://maven.fabricmc.net/org/ow2/asm/asm-util/9.7.1/asm-util-9.7.1.jar"
+                "size": 95628,
+                "MD5": "d0892ecb209867805e7d2418e5dc6c42",
+                "url": "https://maven.fabricmc.net/org/ow2/asm/asm-util/9.10.1/asm-util-9.10.1.jar"
               }
             },
             {
-              "id": "net.fabricmc:sponge-mixin:0.15.4+mixin.0.8.7",
-              "name": "sponge-mixin (0.15.4+mixin.0.8.7)",
+              "id": "net.fabricmc:sponge-mixin:0.17.3+mixin.0.8.7",
+              "name": "sponge-mixin (0.17.3+mixin.0.8.7)",
               "type": "Library",
               "artifact": {
-                "size": 1494834,
-                "MD5": "991ca8be2c408fe19eb64014d8a18243",
-                "url": "https://maven.fabricmc.net/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar"
+                "size": 1540060,
+                "MD5": "87002a5fc9faa1543bf4204f8d5876fb",
+                "url": "https://maven.fabricmc.net/net/fabricmc/sponge-mixin/0.17.3+mixin.0.8.7/sponge-mixin-0.17.3+mixin.0.8.7.jar"
               }
             },
             {
@@ -112,13 +112,13 @@
               }
             },
             {
-              "id": "net.fabricmc:fabric-loader:0.16.9",
-              "name": "fabric-loader (0.16.9)",
+              "id": "net.fabricmc:fabric-loader:0.19.3",
+              "name": "fabric-loader (0.19.3)",
               "type": "Library",
               "artifact": {
-                "size": 1387357,
-                "MD5": "27a6ef87676ce6316c777d81c1cd2962",
-                "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.16.9/fabric-loader-0.16.9.jar"
+                "size": 1976502,
+                "MD5": "881e0e9f53a11b9ad468b47afd678bfd",
+                "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.19.3/fabric-loader-0.19.3.jar"
               }
             }
           ]

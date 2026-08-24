@@ -66,7 +66,7 @@ async function main() {
     }
 
     const mcVersion = "1.21.1";
-    const fabricVersion = "0.16.9";
+    const fabricVersion = "0.19.3";
 
     // 1. Prepare Fabric Loader & Version Manifest
     console.log(`Fetching Fabric metadata for MC ${mcVersion} Loader ${fabricVersion}...`);
