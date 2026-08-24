@@ -1,5 +1,5 @@
 {
-  "version": "1.1.4",
+  "version": "1.1.5",
   "rss": "https://raw.githubusercontent.com/qiyoune/odyssey-distribution/main/news.rss",
   "servers": [
     {
@@ -7,7 +7,7 @@
       "name": "Cobblemon Odyssey",
       "description": "Serveur officiel Cobblemon Odyssey - 1.21.1",
       "icon": "https://raw.githubusercontent.com/qiyoune/odyssey-distribution/main/icon.png",
-      "version": "1.1.4",
+      "version": "1.1.5",
       "address": "localhost:25565",
       "minecraftVersion": "1.21.1",
       "javaOptions": {
@@ -330,6 +330,17 @@
             "MD5": "ee9c8698ff0ce908b8ab5c1bb8d675b3",
             "path": "odyssey-core-1.0.0.jar",
             "url": "https://media.githubusercontent.com/media/qiyoune/odyssey-distribution/main/files/servers/odyssey/mods/odyssey-core-1.0.0.jar"
+          }
+        },
+        {
+          "id": "fr.odyssey:searchables-fabric:1.21.1-1.0.2",
+          "name": "Searchables fabric (1.21.1-1.0.2)",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 79531,
+            "MD5": "33d8f858261d757ef89144ac13013987",
+            "path": "Searchables-fabric-1.21.1-1.0.2.jar",
+            "url": "https://media.githubusercontent.com/media/qiyoune/odyssey-distribution/main/files/servers/odyssey/mods/Searchables-fabric-1.21.1-1.0.2.jar"
           }
         },
         {
