@@ -4,7 +4,8 @@ const crypto = require('crypto');
 const https = require('https');
 
 const DISTRO_DIR = __dirname;
-const BASE_URL = 'https://raw.githubusercontent.com/qiyoune/odyssey-distribution/main';
+const RAW_BASE_URL = 'https://raw.githubusercontent.com/qiyoune/odyssey-distribution/main';
+const MEDIA_BASE_URL = 'https://media.githubusercontent.com/media/qiyoune/odyssey-distribution/main';
 
 function computeHashes(filePath) {
     const buffer = fs.readFileSync(filePath);
@@ -100,7 +101,7 @@ async function main() {
             artifact: {
                 size: manifestHashes.size,
                 MD5: manifestHashes.md5,
-                url: `${BASE_URL}/${manifestRelativePath}`
+                url: `${RAW_BASE_URL}/${manifestRelativePath}`
             }
         }
     ];
@@ -122,12 +123,10 @@ async function main() {
                 const mavenUrl = (lib.url || 'https://maven.fabricmc.net/') + `${groupPath}/${name}/${version}/${jarName}`;
                 console.log(`Fetching Fabric library ${lib.name}...`);
                 try {
-                    // Download only to compute hash/size - we'll serve from Maven directly
                     const libBuf = await fetchUrl(mavenUrl);
                     fs.writeFileSync(absPath, libBuf);
                     const libHashes = computeHashes(absPath);
 
-                    // Use Maven URL directly to avoid Git LFS pointer issues
                     fabricSubModules.push({
                         id: lib.name,
                         name: `${name} (${version})`,
@@ -152,7 +151,7 @@ async function main() {
         artifact: {
             size: loaderHashes.size,
             MD5: loaderHashes.md5,
-            url: `${BASE_URL}/${loaderRelativePath}`
+            url: fabricLoaderJarUrl
         },
         subModules: fabricSubModules
     };
@@ -180,7 +179,7 @@ async function main() {
                 size: hashes.size,
                 MD5: hashes.md5,
                 path: file,
-                url: `${BASE_URL}/files/servers/odyssey/mods/${encodeURIComponent(file)}`
+                url: `${MEDIA_BASE_URL}/files/servers/odyssey/mods/${encodeURIComponent(file)}`
             }
         });
     }
@@ -188,13 +187,13 @@ async function main() {
     // 3. Assemble distribution.json
     const distroJson = {
         version: "1.0.0",
-        rss: `${BASE_URL}/news.rss`,
+        rss: `${RAW_BASE_URL}/news.rss`,
         servers: [
             {
                 id: "odyssey",
                 name: "Cobblemon Odyssey",
                 description: "Serveur officiel Cobblemon Odyssey - 1.21.1",
-                icon: `${BASE_URL}/icon.png`,
+                icon: `${RAW_BASE_URL}/icon.png`,
                 version: "1.0.0",
                 address: "localhost:25565",
                 minecraftVersion: mcVersion,
