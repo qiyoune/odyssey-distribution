@@ -122,10 +122,12 @@ async function main() {
                 const mavenUrl = (lib.url || 'https://maven.fabricmc.net/') + `${groupPath}/${name}/${version}/${jarName}`;
                 console.log(`Fetching Fabric library ${lib.name}...`);
                 try {
+                    // Download only to compute hash/size - we'll serve from Maven directly
                     const libBuf = await fetchUrl(mavenUrl);
                     fs.writeFileSync(absPath, libBuf);
                     const libHashes = computeHashes(absPath);
 
+                    // Use Maven URL directly to avoid Git LFS pointer issues
                     fabricSubModules.push({
                         id: lib.name,
                         name: `${name} (${version})`,
@@ -133,7 +135,7 @@ async function main() {
                         artifact: {
                             size: libHashes.size,
                             MD5: libHashes.md5,
-                            url: `${BASE_URL}/${relPath}`
+                            url: mavenUrl
                         }
                     });
                 } catch (e) {

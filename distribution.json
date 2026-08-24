@@ -48,7 +48,7 @@
               "artifact": {
                 "size": 126093,
                 "MD5": "e2cdd32d198ad31427d298eee9d39d8d",
-                "url": "https://raw.githubusercontent.com/qiyoune/odyssey-distribution/main/files/libraries/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar"
+                "url": "https://maven.fabricmc.net/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar"
               }
             },
             {
@@ -58,7 +58,7 @@
               "artifact": {
                 "size": 35126,
                 "MD5": "4cd9e7178dfb85371bba3077e40cd514",
-                "url": "https://raw.githubusercontent.com/qiyoune/odyssey-distribution/main/files/libraries/org/ow2/asm/asm-analysis/9.7.1/asm-analysis-9.7.1.jar"
+                "url": "https://maven.fabricmc.net/org/ow2/asm/asm-analysis/9.7.1/asm-analysis-9.7.1.jar"
               }
             },
             {
@@ -68,7 +68,7 @@
               "artifact": {
                 "size": 73459,
                 "MD5": "8344aea3c8b7d707e9d35a62710e77c9",
-                "url": "https://raw.githubusercontent.com/qiyoune/odyssey-distribution/main/files/libraries/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar"
+                "url": "https://maven.fabricmc.net/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar"
               }
             },
             {
@@ -78,7 +78,7 @@
               "artifact": {
                 "size": 51939,
                 "MD5": "e85029f613b6469989cc7cf53fe06b74",
-                "url": "https://raw.githubusercontent.com/qiyoune/odyssey-distribution/main/files/libraries/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar"
+                "url": "https://maven.fabricmc.net/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar"
               }
             },
             {
@@ -88,7 +88,7 @@
               "artifact": {
                 "size": 94519,
                 "MD5": "36d373a9cd6cad9b35db9f984c6b4bbb",
-                "url": "https://raw.githubusercontent.com/qiyoune/odyssey-distribution/main/files/libraries/org/ow2/asm/asm-util/9.7.1/asm-util-9.7.1.jar"
+                "url": "https://maven.fabricmc.net/org/ow2/asm/asm-util/9.7.1/asm-util-9.7.1.jar"
               }
             },
             {
@@ -98,7 +98,7 @@
               "artifact": {
                 "size": 1494834,
                 "MD5": "991ca8be2c408fe19eb64014d8a18243",
-                "url": "https://raw.githubusercontent.com/qiyoune/odyssey-distribution/main/files/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar"
+                "url": "https://maven.fabricmc.net/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar"
               }
             },
             {
@@ -108,7 +108,7 @@
               "artifact": {
                 "size": 657725,
                 "MD5": "850be48a3406b9efdf8e64b1c2db97f8",
-                "url": "https://raw.githubusercontent.com/qiyoune/odyssey-distribution/main/files/libraries/net/fabricmc/intermediary/1.21.1/intermediary-1.21.1.jar"
+                "url": "https://maven.fabricmc.net/net/fabricmc/intermediary/1.21.1/intermediary-1.21.1.jar"
               }
             },
             {
@@ -118,7 +118,7 @@
               "artifact": {
                 "size": 1387357,
                 "MD5": "27a6ef87676ce6316c777d81c1cd2962",
-                "url": "https://raw.githubusercontent.com/qiyoune/odyssey-distribution/main/files/libraries/net/fabricmc/fabric-loader/0.16.9/fabric-loader-0.16.9.jar"
+                "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.16.9/fabric-loader-0.16.9.jar"
               }
             }
           ]
