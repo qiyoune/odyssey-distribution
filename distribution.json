@@ -146,6 +146,39 @@
           }
         },
         {
+          "id": "fr.odyssey:continuity:3.0.0+1.21",
+          "name": "continuity (3.0.0+1.21)",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1014044,
+            "MD5": "daee3841730e2576a621943f289deadb",
+            "path": "continuity-3.0.0+1.21.jar",
+            "url": "https://media.githubusercontent.com/media/qiyoune/odyssey-distribution/main/files/servers/odyssey/mods/continuity-3.0.0%2B1.21.jar"
+          }
+        },
+        {
+          "id": "fr.odyssey:distanthorizons:3.2.0-b-1.21.1-fabric-neoforge",
+          "name": "DistantHorizons (3.2.0-b-1.21.1-fabric-neoforge)",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 30207268,
+            "MD5": "8925d0f3c3be448e895dcab6a64de0e6",
+            "path": "DistantHorizons-3.2.0-b-1.21.1-fabric-neoforge.jar",
+            "url": "https://media.githubusercontent.com/media/qiyoune/odyssey-distribution/main/files/servers/odyssey/mods/DistantHorizons-3.2.0-b-1.21.1-fabric-neoforge.jar"
+          }
+        },
+        {
+          "id": "fr.odyssey:entityculling-fabric:1.10.5-mc1.21.1",
+          "name": "entityculling fabric (1.10.5-mc1.21.1)",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1595131,
+            "MD5": "833cb8fd661a52acf63856d22e45f832",
+            "path": "entityculling-fabric-1.10.5-mc1.21.1.jar",
+            "url": "https://media.githubusercontent.com/media/qiyoune/odyssey-distribution/main/files/servers/odyssey/mods/entityculling-fabric-1.10.5-mc1.21.1.jar"
+          }
+        },
+        {
           "id": "fr.odyssey:fabric-api:0.116.15+1.21.1",
           "name": "fabric api (0.116.15+1.21.1)",
           "type": "FabricMod",
@@ -165,6 +198,50 @@
             "MD5": "b8513c8c3eef01ea1117ed8d8cba060d",
             "path": "ferritecore-7.0.3-fabric.jar",
             "url": "https://media.githubusercontent.com/media/qiyoune/odyssey-distribution/main/files/servers/odyssey/mods/ferritecore-7.0.3-fabric.jar"
+          }
+        },
+        {
+          "id": "fr.odyssey:glitchcore-fabric:1.21.1-2.1.0.2",
+          "name": "GlitchCore fabric (1.21.1-2.1.0.2)",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 329237,
+            "MD5": "5ec4af3c719d3bced47491f7bc2f332c",
+            "path": "GlitchCore-fabric-1.21.1-2.1.0.2.jar",
+            "url": "https://media.githubusercontent.com/media/qiyoune/odyssey-distribution/main/files/servers/odyssey/mods/GlitchCore-fabric-1.21.1-2.1.0.2.jar"
+          }
+        },
+        {
+          "id": "fr.odyssey:immediatelyfast-fabric:1.6.12+1.21.1",
+          "name": "ImmediatelyFast Fabric (1.6.12+1.21.1)",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 337368,
+            "MD5": "a5c64c904f0513b53b3f952f53e99cc9",
+            "path": "ImmediatelyFast-Fabric-1.6.12+1.21.1.jar",
+            "url": "https://media.githubusercontent.com/media/qiyoune/odyssey-distribution/main/files/servers/odyssey/mods/ImmediatelyFast-Fabric-1.6.12%2B1.21.1.jar"
+          }
+        },
+        {
+          "id": "fr.odyssey:indium:1.0.35+mc1.21",
+          "name": "indium (1.0.35+mc1.21)",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 105000,
+            "MD5": "db92c620cb72a41403b928a0b45955d0",
+            "path": "indium-1.0.35+mc1.21.jar",
+            "url": "https://media.githubusercontent.com/media/qiyoune/odyssey-distribution/main/files/servers/odyssey/mods/indium-1.0.35%2Bmc1.21.jar"
+          }
+        },
+        {
+          "id": "fr.odyssey:iris-fabric:1.8.8+mc1.21.1",
+          "name": "iris fabric (1.8.8+mc1.21.1)",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2690177,
+            "MD5": "1179fe09b9ba970e84ed59259adfe65a",
+            "path": "iris-fabric-1.8.8+mc1.21.1.jar",
+            "url": "https://media.githubusercontent.com/media/qiyoune/odyssey-distribution/main/files/servers/odyssey/mods/iris-fabric-1.8.8%2Bmc1.21.1.jar"
           }
         },
         {
@@ -209,6 +286,39 @@
             "MD5": "fbf4238d8cc09adb5b4a6f79755a98dd",
             "path": "odyssey-core-1.0.0.jar",
             "url": "https://media.githubusercontent.com/media/qiyoune/odyssey-distribution/main/files/servers/odyssey/mods/odyssey-core-1.0.0.jar"
+          }
+        },
+        {
+          "id": "fr.odyssey:sereneseasons-fabric:1.21.1-10.1.0.1",
+          "name": "SereneSeasons fabric (1.21.1-10.1.0.1)",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 385489,
+            "MD5": "98f7903f166883c35de1f57b2c31fea8",
+            "path": "SereneSeasons-fabric-1.21.1-10.1.0.1.jar",
+            "url": "https://media.githubusercontent.com/media/qiyoune/odyssey-distribution/main/files/servers/odyssey/mods/SereneSeasons-fabric-1.21.1-10.1.0.1.jar"
+          }
+        },
+        {
+          "id": "fr.odyssey:sodium-fabric:0.8.12+mc1.21.1",
+          "name": "sodium fabric (0.8.12+mc1.21.1)",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1573180,
+            "MD5": "4ee4e9d6d047e0bbefaf45deca603fa6",
+            "path": "sodium-fabric-0.8.12+mc1.21.1.jar",
+            "url": "https://media.githubusercontent.com/media/qiyoune/odyssey-distribution/main/files/servers/odyssey/mods/sodium-fabric-0.8.12%2Bmc1.21.1.jar"
+          }
+        },
+        {
+          "id": "fr.odyssey:tectonic:3.0.26-fabric-21.1",
+          "name": "tectonic (3.0.26-fabric-21.1)",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 468009,
+            "MD5": "9b683dcfcfe48fcd78f8fd705c2f47cf",
+            "path": "tectonic-3.0.26-fabric-21.1.jar",
+            "url": "https://media.githubusercontent.com/media/qiyoune/odyssey-distribution/main/files/servers/odyssey/mods/tectonic-3.0.26-fabric-21.1.jar"
           }
         },
         {
