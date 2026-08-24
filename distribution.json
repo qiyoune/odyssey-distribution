@@ -1,5 +1,5 @@
 {
-  "version": "1.1.1",
+  "version": "1.1.2",
   "rss": "https://raw.githubusercontent.com/qiyoune/odyssey-distribution/main/news.rss",
   "servers": [
     {
@@ -7,7 +7,7 @@
       "name": "Cobblemon Odyssey",
       "description": "Serveur officiel Cobblemon Odyssey - 1.21.1",
       "icon": "https://raw.githubusercontent.com/qiyoune/odyssey-distribution/main/icon.png",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "address": "localhost:25565",
       "minecraftVersion": "1.21.1",
       "javaOptions": {
@@ -165,6 +165,39 @@
             "MD5": "8925d0f3c3be448e895dcab6a64de0e6",
             "path": "DistantHorizons-3.2.0-b-1.21.1-fabric-neoforge.jar",
             "url": "https://media.githubusercontent.com/media/qiyoune/odyssey-distribution/main/files/servers/odyssey/mods/DistantHorizons-3.2.0-b-1.21.1-fabric-neoforge.jar"
+          }
+        },
+        {
+          "id": "fr.odyssey:emi:1.1.24+1.21.1+fabric",
+          "name": "emi (1.1.24+1.21.1+fabric)",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1098223,
+            "MD5": "b0cd594a9eddb552494f147fc1dff596",
+            "path": "emi-1.1.24+1.21.1+fabric.jar",
+            "url": "https://media.githubusercontent.com/media/qiyoune/odyssey-distribution/main/files/servers/odyssey/mods/emi-1.1.24%2B1.21.1%2Bfabric.jar"
+          }
+        },
+        {
+          "id": "fr.odyssey:emiffect-fabric:2.1.6+mc1.21.1",
+          "name": "emiffect fabric (2.1.6+mc1.21.1)",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 39538,
+            "MD5": "be5eb5e469dde6ae729ef7a0bdccd4d2",
+            "path": "emiffect-fabric-2.1.6+mc1.21.1.jar",
+            "url": "https://media.githubusercontent.com/media/qiyoune/odyssey-distribution/main/files/servers/odyssey/mods/emiffect-fabric-2.1.6%2Bmc1.21.1.jar"
+          }
+        },
+        {
+          "id": "fr.odyssey:emi_enchanting:0.1.2+1.21",
+          "name": "emi enchanting (0.1.2+1.21)",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 15210,
+            "MD5": "d72be5d0ed246c23744ee1a38d38ed19",
+            "path": "emi_enchanting-0.1.2+1.21.jar",
+            "url": "https://media.githubusercontent.com/media/qiyoune/odyssey-distribution/main/files/servers/odyssey/mods/emi_enchanting-0.1.2%2B1.21.jar"
           }
         },
         {

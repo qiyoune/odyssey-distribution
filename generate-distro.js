@@ -186,7 +186,7 @@ async function main() {
 
     // 3. Assemble distribution.json
     const distroJson = {
-        version: "1.1.1",
+        version: "1.1.2",
         rss: `${RAW_BASE_URL}/news.rss`,
         servers: [
             {
@@ -194,7 +194,7 @@ async function main() {
                 name: "Cobblemon Odyssey",
                 description: "Serveur officiel Cobblemon Odyssey - 1.21.1",
                 icon: `${RAW_BASE_URL}/icon.png`,
-                version: "1.1.1",
+                version: "1.1.2",
                 address: "localhost:25565",
                 minecraftVersion: mcVersion,
                 javaOptions: {
