@@ -300,14 +300,14 @@
           }
         },
         {
-          "id": "fr.odyssey:sodium-fabric:0.8.12+mc1.21.1",
-          "name": "sodium fabric (0.8.12+mc1.21.1)",
+          "id": "fr.odyssey:sodium-fabric:0.6.13+mc1.21.1",
+          "name": "sodium fabric (0.6.13+mc1.21.1)",
           "type": "FabricMod",
           "artifact": {
-            "size": 1573180,
-            "MD5": "4ee4e9d6d047e0bbefaf45deca603fa6",
-            "path": "sodium-fabric-0.8.12+mc1.21.1.jar",
-            "url": "https://media.githubusercontent.com/media/qiyoune/odyssey-distribution/main/files/servers/odyssey/mods/sodium-fabric-0.8.12%2Bmc1.21.1.jar"
+            "size": 1297761,
+            "MD5": "aa37ba0048a1af6b554b137088cad484",
+            "path": "sodium-fabric-0.6.13+mc1.21.1.jar",
+            "url": "https://media.githubusercontent.com/media/qiyoune/odyssey-distribution/main/files/servers/odyssey/mods/sodium-fabric-0.6.13%2Bmc1.21.1.jar"
           }
         },
         {
