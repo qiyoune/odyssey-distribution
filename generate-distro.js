@@ -184,9 +184,43 @@ async function main() {
         });
     }
 
+    // 2b. Process Configuration and Custom Files (type: File)
+    const serverFilesDir = path.join(DISTRO_DIR, 'files', 'servers', 'odyssey');
+    const fileModules = [];
+
+    function scanServerFiles(dir, relativeBase = '') {
+        if (!fs.existsSync(dir)) return;
+        const entries = fs.readdirSync(dir, { withFileTypes: true });
+        for (const entry of entries) {
+            const fullPath = path.join(dir, entry.name);
+            const relPath = relativeBase ? `${relativeBase}/${entry.name}` : entry.name;
+            if (entry.isDirectory()) {
+                if (entry.name !== 'mods') {
+                    scanServerFiles(fullPath, relPath);
+                }
+            } else {
+                const hashes = computeHashes(fullPath);
+                const fileId = `fr.odyssey:${relPath.replace(/[^a-zA-Z0-9]/g, '-').toLowerCase()}:1.0.0`;
+                console.log(` - File: ${relPath} [MD5: ${hashes.md5}, Size: ${hashes.size}]`);
+                fileModules.push({
+                    id: fileId,
+                    name: `Config (${relPath})`,
+                    type: "File",
+                    artifact: {
+                        size: hashes.size,
+                        MD5: hashes.md5,
+                        path: relPath,
+                        url: `${RAW_BASE_URL}/files/servers/odyssey/${relPath.split('/').map(encodeURIComponent).join('/')}`
+                    }
+                });
+            }
+        }
+    }
+    scanServerFiles(serverFilesDir);
+
     // 3. Assemble distribution.json
     const distroJson = {
-        version: "1.1.5",
+        version: "1.1.6",
         rss: `${RAW_BASE_URL}/news.rss`,
         servers: [
             {
@@ -194,7 +228,7 @@ async function main() {
                 name: "Cobblemon Odyssey",
                 description: "Serveur officiel Cobblemon Odyssey - 1.21.1",
                 icon: `${RAW_BASE_URL}/icon.png`,
-                version: "1.1.5",
+                version: "1.1.6",
                 address: "localhost:25565",
                 minecraftVersion: mcVersion,
                 javaOptions: {
@@ -209,7 +243,8 @@ async function main() {
                 autoconnect: true,
                 modules: [
                     fabricModule,
-                    ...modModules
+                    ...modModules,
+                    ...fileModules
                 ]
             }
         ]
