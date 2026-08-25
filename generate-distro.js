@@ -235,12 +235,12 @@ async function main() {
                     supported: "21.x",
                     suggestedMajor: 21,
                     ram: {
-                        recommended: 4096,
-                        minimum: 2048
+                        recommended: 6144,
+                        minimum: 3072
                     }
                 },
                 mainServer: true,
-                autoconnect: true,
+                autoconnect: false,
                 modules: [
                     fabricModule,
                     ...modModules,
