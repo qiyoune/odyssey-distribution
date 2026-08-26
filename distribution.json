@@ -399,6 +399,17 @@
           }
         },
         {
+          "id": "fr.odyssey:xaeroworldmap-fabric:1.21.1-1.44.2",
+          "name": "xaeroworldmap fabric (1.21.1-1.44.2)",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1448218,
+            "MD5": "779cde2dce63cf90d6b318933c2d1080",
+            "path": "xaeroworldmap-fabric-1.21.1-1.44.2.jar",
+            "url": "https://media.githubusercontent.com/media/qiyoune/odyssey-distribution/main/files/servers/odyssey/mods/xaeroworldmap-fabric-1.21.1-1.44.2.jar"
+          }
+        },
+        {
           "id": "fr.odyssey:config-distanthorizons-toml:1.0.0",
           "name": "Config (config/DistantHorizons.toml)",
           "type": "File",
