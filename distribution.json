@@ -135,6 +135,17 @@
           }
         },
         {
+          "id": "fr.odyssey:bluemap:5.7-fabric",
+          "name": "bluemap (5.7-fabric)",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 5517229,
+            "MD5": "964c1a371390dff18bea716f6b3f91e6",
+            "path": "bluemap-5.7-fabric.jar",
+            "url": "https://media.githubusercontent.com/media/qiyoune/odyssey-distribution/main/files/servers/odyssey/mods/bluemap-5.7-fabric.jar"
+          }
+        },
+        {
           "id": "fr.odyssey:cobblemon-fabric:1.7.3+1.21.1",
           "name": "Cobblemon fabric (1.7.3+1.21.1)",
           "type": "FabricMod",
