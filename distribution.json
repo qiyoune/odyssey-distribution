@@ -348,8 +348,8 @@
           "name": "odyssey core (1.0.0)",
           "type": "FabricMod",
           "artifact": {
-            "size": 6284382,
-            "MD5": "ffe185f23d0df3d16252bae16eeb73aa",
+            "size": 6288912,
+            "MD5": "ee5ccc0f1d350186d2c672173b002f14",
             "path": "odyssey-core-1.0.0.jar",
             "url": "https://media.githubusercontent.com/media/qiyoune/odyssey-distribution/main/files/servers/odyssey/mods/odyssey-core-1.0.0.jar"
           }
