@@ -37,7 +37,7 @@
               "type": "VersionManifest",
               "artifact": {
                 "size": 3373,
-                "MD5": "db67e897c92791a8aad9a392a861367f",
+                "MD5": "19d9b03bf8a2cbe2057f53c2cffdcf34",
                 "url": "https://raw.githubusercontent.com/qiyoune/odyssey-distribution/main/files/versions/1.21.1-fabric-0.19.3/1.21.1-fabric-0.19.3.json"
               }
             },
@@ -326,8 +326,8 @@
           "name": "odyssey core (1.0.0)",
           "type": "FabricMod",
           "artifact": {
-            "size": 6211900,
-            "MD5": "3ef504d6777bac7f62930699bdf1d0d9",
+            "size": 6204566,
+            "MD5": "5ec5f82fd7653ac2542857294c9fe612",
             "path": "odyssey-core-1.0.0.jar",
             "url": "https://media.githubusercontent.com/media/qiyoune/odyssey-distribution/main/files/servers/odyssey/mods/odyssey-core-1.0.0.jar"
           }
