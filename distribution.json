@@ -333,12 +333,23 @@
           }
         },
         {
+          "id": "fr.odyssey:mcef-fabric:2.1.6-1.21.1",
+          "name": "mcef fabric (2.1.6-1.21.1)",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 221767,
+            "MD5": "cd7fab2fd8adb8dfed1223c5cc9688c2",
+            "path": "mcef-fabric-2.1.6-1.21.1.jar",
+            "url": "https://media.githubusercontent.com/media/qiyoune/odyssey-distribution/main/files/servers/odyssey/mods/mcef-fabric-2.1.6-1.21.1.jar"
+          }
+        },
+        {
           "id": "fr.odyssey:odyssey-core:1.0.0",
           "name": "odyssey core (1.0.0)",
           "type": "FabricMod",
           "artifact": {
-            "size": 6207071,
-            "MD5": "21568953489a506dbcfb5a9834778a5f",
+            "size": 6205793,
+            "MD5": "6c19dc751fb22b29ad1fa255ec83b921",
             "path": "odyssey-core-1.0.0.jar",
             "url": "https://media.githubusercontent.com/media/qiyoune/odyssey-distribution/main/files/servers/odyssey/mods/odyssey-core-1.0.0.jar"
           }
