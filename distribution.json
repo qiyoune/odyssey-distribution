@@ -326,8 +326,8 @@
           "name": "odyssey core (1.0.0)",
           "type": "FabricMod",
           "artifact": {
-            "size": 6204566,
-            "MD5": "5ec5f82fd7653ac2542857294c9fe612",
+            "size": 6201800,
+            "MD5": "688fc9eca32397165e25d9702bf3759d",
             "path": "odyssey-core-1.0.0.jar",
             "url": "https://media.githubusercontent.com/media/qiyoune/odyssey-distribution/main/files/servers/odyssey/mods/odyssey-core-1.0.0.jar"
           }
@@ -396,17 +396,6 @@
             "MD5": "dccfc2a487792d2d52ca91d19b9d7f6d",
             "path": "voicechat-fabric-1.21.1-2.6.22.jar",
             "url": "https://media.githubusercontent.com/media/qiyoune/odyssey-distribution/main/files/servers/odyssey/mods/voicechat-fabric-1.21.1-2.6.22.jar"
-          }
-        },
-        {
-          "id": "fr.odyssey:xaeroworldmap-fabric:1.21.1-1.44.2",
-          "name": "xaeroworldmap fabric (1.21.1-1.44.2)",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 1448218,
-            "MD5": "779cde2dce63cf90d6b318933c2d1080",
-            "path": "xaeroworldmap-fabric-1.21.1-1.44.2.jar",
-            "url": "https://media.githubusercontent.com/media/qiyoune/odyssey-distribution/main/files/servers/odyssey/mods/xaeroworldmap-fabric-1.21.1-1.44.2.jar"
           }
         },
         {
