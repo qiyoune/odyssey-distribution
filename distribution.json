@@ -333,14 +333,14 @@
           }
         },
         {
-          "id": "fr.odyssey:odyssey-core:2.2.4",
-          "name": "odyssey core (2.2.4)",
+          "id": "fr.odyssey:odyssey-core:2.2.5",
+          "name": "odyssey core (2.2.5)",
           "type": "FabricMod",
           "artifact": {
-            "size": 6331485,
-            "MD5": "407828b146ac39197b69726dee2d3a84",
-            "path": "odyssey-core-2.2.4.jar",
-            "url": "https://media.githubusercontent.com/media/qiyoune/odyssey-distribution/main/files/servers/odyssey/mods/odyssey-core-2.2.4.jar"
+            "size": 6332255,
+            "MD5": "8388786fc8f26ab822097099856f3e36",
+            "path": "odyssey-core-2.2.5.jar",
+            "url": "https://media.githubusercontent.com/media/qiyoune/odyssey-distribution/main/files/servers/odyssey/mods/odyssey-core-2.2.5.jar"
           }
         },
         {
