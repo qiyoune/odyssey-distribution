@@ -37,7 +37,7 @@
               "type": "VersionManifest",
               "artifact": {
                 "size": 3373,
-                "MD5": "19d9b03bf8a2cbe2057f53c2cffdcf34",
+                "MD5": "670eb83d57bbf18dd2b5c05a1c74c541",
                 "url": "https://raw.githubusercontent.com/qiyoune/odyssey-distribution/main/files/versions/1.21.1-fabric-0.19.3/1.21.1-fabric-0.19.3.json"
               }
             },
@@ -333,25 +333,14 @@
           }
         },
         {
-          "id": "fr.odyssey:mcef-fabric:2.1.6-1.21.1",
-          "name": "mcef fabric (2.1.6-1.21.1)",
+          "id": "fr.odyssey:odyssey-core:2.1.1",
+          "name": "odyssey core (2.1.1)",
           "type": "FabricMod",
           "artifact": {
-            "size": 221767,
-            "MD5": "cd7fab2fd8adb8dfed1223c5cc9688c2",
-            "path": "mcef-fabric-2.1.6-1.21.1.jar",
-            "url": "https://media.githubusercontent.com/media/qiyoune/odyssey-distribution/main/files/servers/odyssey/mods/mcef-fabric-2.1.6-1.21.1.jar"
-          }
-        },
-        {
-          "id": "fr.odyssey:odyssey-core:1.0.0",
-          "name": "odyssey core (1.0.0)",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 6287518,
-            "MD5": "e5a030e5881b7ccf78ea9a7c0d795819",
-            "path": "odyssey-core-1.0.0.jar",
-            "url": "https://media.githubusercontent.com/media/qiyoune/odyssey-distribution/main/files/servers/odyssey/mods/odyssey-core-1.0.0.jar"
+            "size": 6325863,
+            "MD5": "c61fd2c5fa63d2f835e6c20e2d3a0e13",
+            "path": "odyssey-core-2.1.1.jar",
+            "url": "https://media.githubusercontent.com/media/qiyoune/odyssey-distribution/main/files/servers/odyssey/mods/odyssey-core-2.1.1.jar"
           }
         },
         {
