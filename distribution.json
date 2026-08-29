@@ -37,7 +37,7 @@
               "type": "VersionManifest",
               "artifact": {
                 "size": 3373,
-                "MD5": "670eb83d57bbf18dd2b5c05a1c74c541",
+                "MD5": "fe7839aa8eb4c74aa981912bb9062cfe",
                 "url": "https://raw.githubusercontent.com/qiyoune/odyssey-distribution/main/files/versions/1.21.1-fabric-0.19.3/1.21.1-fabric-0.19.3.json"
               }
             },
@@ -333,14 +333,14 @@
           }
         },
         {
-          "id": "fr.odyssey:odyssey-core:2.2.5",
-          "name": "odyssey core (2.2.5)",
+          "id": "fr.odyssey:odyssey-core:2.4.0",
+          "name": "odyssey core (2.4.0)",
           "type": "FabricMod",
           "artifact": {
-            "size": 6332255,
-            "MD5": "8388786fc8f26ab822097099856f3e36",
-            "path": "odyssey-core-2.2.5.jar",
-            "url": "https://media.githubusercontent.com/media/qiyoune/odyssey-distribution/main/files/servers/odyssey/mods/odyssey-core-2.2.5.jar"
+            "size": 6511593,
+            "MD5": "11a6029e151e6655ea5217b127134883",
+            "path": "odyssey-core-2.4.0.jar",
+            "url": "https://media.githubusercontent.com/media/qiyoune/odyssey-distribution/main/files/servers/odyssey/mods/odyssey-core-2.4.0.jar"
           }
         },
         {
@@ -418,6 +418,50 @@
             "MD5": "3054ef4488e7a463aceaf7afcb48c5a7",
             "path": "config/DistantHorizons.toml",
             "url": "https://raw.githubusercontent.com/qiyoune/odyssey-distribution/main/files/servers/odyssey/config/DistantHorizons.toml"
+          }
+        },
+        {
+          "id": "fr.odyssey:config-iris-properties:1.0.0",
+          "name": "Config (config/iris.properties)",
+          "type": "File",
+          "artifact": {
+            "size": 273,
+            "MD5": "b0c03423bc36bdee6f369b260c662420",
+            "path": "config/iris.properties",
+            "url": "https://raw.githubusercontent.com/qiyoune/odyssey-distribution/main/files/servers/odyssey/config/iris.properties"
+          }
+        },
+        {
+          "id": "fr.odyssey:shaderpacks-bsl-v10-1-3-zip:1.0.0",
+          "name": "Config (shaderpacks/BSL_v10.1.3.zip)",
+          "type": "File",
+          "artifact": {
+            "size": 1127026,
+            "MD5": "324f09c3d1c736576a09782ff75c2f68",
+            "path": "shaderpacks/BSL_v10.1.3.zip",
+            "url": "https://raw.githubusercontent.com/qiyoune/odyssey-distribution/main/files/servers/odyssey/shaderpacks/BSL_v10.1.3.zip"
+          }
+        },
+        {
+          "id": "fr.odyssey:shaderpacks-complementaryunbound-r5-8-1-zip:1.0.0",
+          "name": "Config (shaderpacks/ComplementaryUnbound_r5.8.1.zip)",
+          "type": "File",
+          "artifact": {
+            "size": 546928,
+            "MD5": "0a3553109dbe689a9f76d1aedc8f50c6",
+            "path": "shaderpacks/ComplementaryUnbound_r5.8.1.zip",
+            "url": "https://raw.githubusercontent.com/qiyoune/odyssey-distribution/main/files/servers/odyssey/shaderpacks/ComplementaryUnbound_r5.8.1.zip"
+          }
+        },
+        {
+          "id": "fr.odyssey:shaderpacks-photon-v1-3b-zip:1.0.0",
+          "name": "Config (shaderpacks/photon_v1.3b.zip)",
+          "type": "File",
+          "artifact": {
+            "size": 3800987,
+            "MD5": "6360159abc1bdd417ef8b40abc70e080",
+            "path": "shaderpacks/photon_v1.3b.zip",
+            "url": "https://raw.githubusercontent.com/qiyoune/odyssey-distribution/main/files/servers/odyssey/shaderpacks/photon_v1.3b.zip"
           }
         }
       ]
