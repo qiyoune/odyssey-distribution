@@ -333,14 +333,14 @@
           }
         },
         {
-          "id": "fr.odyssey:odyssey-core:2.4.0",
-          "name": "odyssey core (2.4.0)",
+          "id": "fr.odyssey:odyssey-core:2.4.1",
+          "name": "odyssey core (2.4.1)",
           "type": "FabricMod",
           "artifact": {
-            "size": 6511593,
-            "MD5": "11a6029e151e6655ea5217b127134883",
-            "path": "odyssey-core-2.4.0.jar",
-            "url": "https://media.githubusercontent.com/media/qiyoune/odyssey-distribution/main/files/servers/odyssey/mods/odyssey-core-2.4.0.jar"
+            "size": 6536002,
+            "MD5": "c2df5a7fb587141dc9e78d9f4887d76a",
+            "path": "odyssey-core-2.4.1.jar",
+            "url": "https://media.githubusercontent.com/media/qiyoune/odyssey-distribution/main/files/servers/odyssey/mods/odyssey-core-2.4.1.jar"
           }
         },
         {
@@ -451,6 +451,17 @@
             "MD5": "0a3553109dbe689a9f76d1aedc8f50c6",
             "path": "shaderpacks/ComplementaryUnbound_r5.8.1.zip",
             "url": "https://raw.githubusercontent.com/qiyoune/odyssey-distribution/main/files/servers/odyssey/shaderpacks/ComplementaryUnbound_r5.8.1.zip"
+          }
+        },
+        {
+          "id": "fr.odyssey:shaderpacks-complementaryunbound-r5-8-1-zip-txt:1.0.0",
+          "name": "Config (shaderpacks/ComplementaryUnbound_r5.8.1.zip.txt)",
+          "type": "File",
+          "artifact": {
+            "size": 46,
+            "MD5": "85a1f9e4c97435059c39abda31707249",
+            "path": "shaderpacks/ComplementaryUnbound_r5.8.1.zip.txt",
+            "url": "https://raw.githubusercontent.com/qiyoune/odyssey-distribution/main/files/servers/odyssey/shaderpacks/ComplementaryUnbound_r5.8.1.zip.txt"
           }
         },
         {
