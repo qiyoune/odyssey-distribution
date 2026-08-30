@@ -836,36 +836,36 @@ _version = 4
 				# 0.0: Fog starts at the player's position. 
 				# 1.0: Fog starts at the closest edge of the vanilla render distance. 
 				# 1.414: Fog starts at the corner of the vanilla render distance.
-				farFogStart = "0.4"
+				farFogStart = "17.0"
 				#
-				# What is the minimum fog thickness? 
-				# 
-				# 0.0: No fog. 
+				# What is the minimum fog thickness?
+				#
+				# 0.0: No fog.
 				# 1.0: Fully opaque fog.
 				farFogMin = "0.0"
 				#
-				# What color should fog use? 
-				# 
-				# USE_WORLD_FOG_COLOR: Use the world's fog color. 
+				# What color should fog use?
+				#
+				# USE_WORLD_FOG_COLOR: Use the world's fog color.
 				# USE_SKY_COLOR: Use the sky's color.
 				colorMode = "USE_WORLD_FOG_COLOR"
 				#
-				# How should the fog thickness should be calculated? 
-				# 
+				# How should the fog thickness should be calculated?
+				#
 				# LINEAR: Linear based on distance (will ignore 'density')
-				# EXPONENTIAL: 1/(e^(distance*density)) 
+				# EXPONENTIAL: 1/(e^(distance*density))
 				# EXPONENTIAL_SQUARED: 1/(e^((distance*density)^2)
-				farFogFalloff = "EXPONENTIAL_SQUARED"
+				farFogFalloff = "LINEAR"
 				#
 				# Used in conjunction with the Fog Falloff.
 				farFogDensity = "2.5"
 				#
-				# Where should the far fog end? 
-				# 
+				# Where should the far fog end?
+				#
 				# 0.0: Fog ends at player's position.
-				# 1.0: Fog ends at the closest edge of the vanilla render distance. 
+				# 1.0: Fog ends at the closest edge of the vanilla render distance.
 				# 1.414: Fog ends at the corner of the vanilla render distance.
-				farFogEnd = "1.0"
+				farFogEnd = "24.0"
 
 				[client.advanced.graphics.fog.heightFog]
 					#

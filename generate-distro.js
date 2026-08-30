@@ -188,6 +188,17 @@ async function main() {
     const serverFilesDir = path.join(DISTRO_DIR, 'files', 'servers', 'odyssey');
     const fileModules = [];
 
+    // Fichiers "vivants" (modifiés par le jeu/le joueur en cours de partie) : livrés
+    // UNE SEULE FOIS (au premier lancement, si absent), puis plus jamais retouchés -
+    // contrairement aux autres fichiers "File" (config de mods) qui sont resynchronisés
+    // à chaque lancement via leur hash MD5. Sert par exemple à définir la langue par
+    // défaut (options.txt) sans écraser les réglages (touches, vidéo...) que le joueur
+    // aura modifiés ensuite. Voir helios-core/validateLocalFile : sans MD5, la simple
+    // présence du fichier suffit à le considérer valide pour toujours.
+    const UNTRACKED_RELATIVE_PATHS = new Set([
+        'options.txt'
+    ]);
+
     function scanServerFiles(dir, relativeBase = '') {
         if (!fs.existsSync(dir)) return;
         const entries = fs.readdirSync(dir, { withFileTypes: true });
@@ -201,14 +212,15 @@ async function main() {
             } else {
                 const hashes = computeHashes(fullPath);
                 const fileId = `fr.odyssey:${relPath.replace(/[^a-zA-Z0-9]/g, '-').toLowerCase()}:1.0.0`;
-                console.log(` - File: ${relPath} [MD5: ${hashes.md5}, Size: ${hashes.size}]`);
+                const untracked = UNTRACKED_RELATIVE_PATHS.has(relPath);
+                console.log(` - File: ${relPath} [MD5: ${untracked ? '(untracked, non suivi apres le premier telechargement)' : hashes.md5}, Size: ${hashes.size}]`);
                 fileModules.push({
                     id: fileId,
                     name: `Config (${relPath})`,
                     type: "File",
                     artifact: {
                         size: hashes.size,
-                        MD5: hashes.md5,
+                        ...(untracked ? {} : { MD5: hashes.md5 }),
                         path: relPath,
                         url: `${RAW_BASE_URL}/files/servers/odyssey/${relPath.split('/').map(encodeURIComponent).join('/')}`
                     }

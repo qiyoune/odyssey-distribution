@@ -37,7 +37,7 @@
               "type": "VersionManifest",
               "artifact": {
                 "size": 3373,
-                "MD5": "fe7839aa8eb4c74aa981912bb9062cfe",
+                "MD5": "e85c120e89f0a7e602bb5943f399215e",
                 "url": "https://raw.githubusercontent.com/qiyoune/odyssey-distribution/main/files/versions/1.21.1-fabric-0.19.3/1.21.1-fabric-0.19.3.json"
               }
             },
@@ -333,14 +333,14 @@
           }
         },
         {
-          "id": "fr.odyssey:odyssey-core:2.4.1",
-          "name": "odyssey core (2.4.1)",
+          "id": "fr.odyssey:odyssey-core:2.6.1",
+          "name": "odyssey core (2.6.1)",
           "type": "FabricMod",
           "artifact": {
-            "size": 6536002,
-            "MD5": "c2df5a7fb587141dc9e78d9f4887d76a",
-            "path": "odyssey-core-2.4.1.jar",
-            "url": "https://media.githubusercontent.com/media/qiyoune/odyssey-distribution/main/files/servers/odyssey/mods/odyssey-core-2.4.1.jar"
+            "size": 6599114,
+            "MD5": "8e1f8f2e0b57ec45033131b767983e34",
+            "path": "odyssey-core-2.6.1.jar",
+            "url": "https://media.githubusercontent.com/media/qiyoune/odyssey-distribution/main/files/servers/odyssey/mods/odyssey-core-2.6.1.jar"
           }
         },
         {
@@ -414,8 +414,8 @@
           "name": "Config (config/DistantHorizons.toml)",
           "type": "File",
           "artifact": {
-            "size": 37041,
-            "MD5": "3054ef4488e7a463aceaf7afcb48c5a7",
+            "size": 37018,
+            "MD5": "bb6df1935505b84862992501ad432f6f",
             "path": "config/DistantHorizons.toml",
             "url": "https://raw.githubusercontent.com/qiyoune/odyssey-distribution/main/files/servers/odyssey/config/DistantHorizons.toml"
           }
@@ -429,6 +429,16 @@
             "MD5": "b0c03423bc36bdee6f369b260c662420",
             "path": "config/iris.properties",
             "url": "https://raw.githubusercontent.com/qiyoune/odyssey-distribution/main/files/servers/odyssey/config/iris.properties"
+          }
+        },
+        {
+          "id": "fr.odyssey:options-txt:1.0.0",
+          "name": "Config (options.txt)",
+          "type": "File",
+          "artifact": {
+            "size": 11,
+            "path": "options.txt",
+            "url": "https://raw.githubusercontent.com/qiyoune/odyssey-distribution/main/files/servers/odyssey/options.txt"
           }
         },
         {
