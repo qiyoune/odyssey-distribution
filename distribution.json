@@ -37,7 +37,7 @@
               "type": "VersionManifest",
               "artifact": {
                 "size": 3373,
-                "MD5": "e85c120e89f0a7e602bb5943f399215e",
+                "MD5": "08a9e2b86d32bc01d8e87f272e5eb31b",
                 "url": "https://raw.githubusercontent.com/qiyoune/odyssey-distribution/main/files/versions/1.21.1-fabric-0.19.3/1.21.1-fabric-0.19.3.json"
               }
             },
@@ -245,6 +245,17 @@
           }
         },
         {
+          "id": "fr.odyssey:fancymenu_fabric:3.9.12_MC_1.21.1",
+          "name": "fancymenu fabric (3.9.12_MC_1.21.1)",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 26267682,
+            "MD5": "15849d4a243a560bd5380b5bc1a1425a",
+            "path": "fancymenu_fabric_3.9.12_MC_1.21.1.jar",
+            "url": "https://media.githubusercontent.com/media/qiyoune/odyssey-distribution/main/files/servers/odyssey/mods/fancymenu_fabric_3.9.12_MC_1.21.1.jar"
+          }
+        },
+        {
           "id": "fr.odyssey:ferritecore:7.0.3-fabric",
           "name": "ferritecore (7.0.3-fabric)",
           "type": "FabricMod",
@@ -300,6 +311,17 @@
           }
         },
         {
+          "id": "fr.odyssey:konkrete_fabric:1.9.9_MC_1.21",
+          "name": "konkrete fabric (1.9.9_MC_1.21)",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 786695,
+            "MD5": "287ee9cfc6015f706672fd8c20f5ef9c",
+            "path": "konkrete_fabric_1.9.9_MC_1.21.jar",
+            "url": "https://media.githubusercontent.com/media/qiyoune/odyssey-distribution/main/files/servers/odyssey/mods/konkrete_fabric_1.9.9_MC_1.21.jar"
+          }
+        },
+        {
           "id": "fr.odyssey:krypton:0.2.8",
           "name": "krypton (0.2.8)",
           "type": "FabricMod",
@@ -333,14 +355,25 @@
           }
         },
         {
-          "id": "fr.odyssey:odyssey-core:2.6.1",
-          "name": "odyssey core (2.6.1)",
+          "id": "fr.odyssey:melody_fabric:1.0.10_MC_1.21",
+          "name": "melody fabric (1.0.10_MC_1.21)",
           "type": "FabricMod",
           "artifact": {
-            "size": 6599114,
-            "MD5": "8e1f8f2e0b57ec45033131b767983e34",
-            "path": "odyssey-core-2.6.1.jar",
-            "url": "https://media.githubusercontent.com/media/qiyoune/odyssey-distribution/main/files/servers/odyssey/mods/odyssey-core-2.6.1.jar"
+            "size": 188035,
+            "MD5": "0f1bfbf2dd4fa047a1616fc448f3b856",
+            "path": "melody_fabric_1.0.10_MC_1.21.jar",
+            "url": "https://media.githubusercontent.com/media/qiyoune/odyssey-distribution/main/files/servers/odyssey/mods/melody_fabric_1.0.10_MC_1.21.jar"
+          }
+        },
+        {
+          "id": "fr.odyssey:odyssey-core:2.6.4",
+          "name": "odyssey core (2.6.4)",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 6618359,
+            "MD5": "eff7e777e8d39bb8884e5dca04d6175a",
+            "path": "odyssey-core-2.6.4.jar",
+            "url": "https://media.githubusercontent.com/media/qiyoune/odyssey-distribution/main/files/servers/odyssey/mods/odyssey-core-2.6.4.jar"
           }
         },
         {
