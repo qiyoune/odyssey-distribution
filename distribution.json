@@ -37,7 +37,7 @@
               "type": "VersionManifest",
               "artifact": {
                 "size": 3373,
-                "MD5": "08a9e2b86d32bc01d8e87f272e5eb31b",
+                "MD5": "c031fde3a026e8f31adca3ed3f717fb0",
                 "url": "https://raw.githubusercontent.com/qiyoune/odyssey-distribution/main/files/versions/1.21.1-fabric-0.19.3/1.21.1-fabric-0.19.3.json"
               }
             },
@@ -370,8 +370,8 @@
           "name": "odyssey core (2.6.4)",
           "type": "FabricMod",
           "artifact": {
-            "size": 6618359,
-            "MD5": "eff7e777e8d39bb8884e5dca04d6175a",
+            "size": 6619163,
+            "MD5": "32419d6eccc4000ade35e00bfaaa5673",
             "path": "odyssey-core-2.6.4.jar",
             "url": "https://media.githubusercontent.com/media/qiyoune/odyssey-distribution/main/files/servers/odyssey/mods/odyssey-core-2.6.4.jar"
           }
@@ -429,6 +429,17 @@
             "MD5": "7d2aa346b66270e770fee79e5b4541d6",
             "path": "Terralith_1.21.x_v2.6.2.jar",
             "url": "https://media.githubusercontent.com/media/qiyoune/odyssey-distribution/main/files/servers/odyssey/mods/Terralith_1.21.x_v2.6.2.jar"
+          }
+        },
+        {
+          "id": "fr.odyssey:translucencyfix:2.3.0-fabric-quilt",
+          "name": "translucencyfix (2.3.0-fabric-quilt)",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 231036,
+            "MD5": "28e2e1009bc77d9d9004fdc06ae02c71",
+            "path": "translucencyfix-2.3.0-fabric-quilt.jar",
+            "url": "https://media.githubusercontent.com/media/qiyoune/odyssey-distribution/main/files/servers/odyssey/mods/translucencyfix-2.3.0-fabric-quilt.jar"
           }
         },
         {
