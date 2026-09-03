@@ -124,6 +124,17 @@
           ]
         },
         {
+          "id": "fr.odyssey:accessories-fabric:1.1.0-beta.53+1.21.1",
+          "name": "accessories fabric (1.1.0-beta.53+1.21.1)",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1095802,
+            "MD5": "1f332447eadf66a07b33e641816fcd5e",
+            "path": "accessories-fabric-1.1.0-beta.53+1.21.1.jar",
+            "url": "https://media.githubusercontent.com/media/qiyoune/odyssey-distribution/main/files/servers/odyssey/mods/accessories-fabric-1.1.0-beta.53%2B1.21.1.jar"
+          }
+        },
+        {
           "id": "fr.odyssey:axiom:5.4.2-for-MC1.21.1",
           "name": "Axiom (5.4.2-for-MC1.21.1)",
           "type": "FabricMod",
@@ -374,6 +385,17 @@
             "MD5": "48c0c4a2eb41cd6118670c8eebda966b",
             "path": "odyssey-core-2.6.4.jar",
             "url": "https://media.githubusercontent.com/media/qiyoune/odyssey-distribution/main/files/servers/odyssey/mods/odyssey-core-2.6.4.jar"
+          }
+        },
+        {
+          "id": "fr.odyssey:owo-lib:0.12.15.4+1.21",
+          "name": "owo lib (0.12.15.4+1.21)",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1183559,
+            "MD5": "3627aee17111e12a8c66928f5d7a3fba",
+            "path": "owo-lib-0.12.15.4+1.21.jar",
+            "url": "https://media.githubusercontent.com/media/qiyoune/odyssey-distribution/main/files/servers/odyssey/mods/owo-lib-0.12.15.4%2B1.21.jar"
           }
         },
         {
